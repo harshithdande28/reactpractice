@@ -5,3 +5,5 @@ Introduction to React 16
     - Event Handling in React
     - State in React 
     - Redux
+
+    Playlist for react basice: https://www.youtube.com/watch?v=MHn66JJH5zs&list=PLSsAz5wf2lkKm0BG9wUWWSgYWBzDa-dFs&index=1
