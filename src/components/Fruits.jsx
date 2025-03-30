@@ -1,6 +1,7 @@
 import Fruit from "./Fruit";
 import ConditionalComponent from "./ConditionalComponent";
-// const fruits = ["Apple", "Mango", "Orange", "Pineapple", "Banana"];
+import Message from "./Message";
+import Counter from "./Counter";
 const fruits = [
   { name: "Mango", price: 2.5, emoji: "🥭", soldout: false },
   { name: "Banana", price: 0.7, emoji: "🍌", soldout: true },
@@ -14,6 +15,8 @@ export default function Fruits() {
         <Fruit key={index} obj={item} />
       ))}
       {/* <ConditionalComponent /> */}
+      {/* <Message /> */}
+      <Counter />
     </ul>
   );
 }
