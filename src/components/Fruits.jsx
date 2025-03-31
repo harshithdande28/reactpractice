@@ -2,6 +2,7 @@ import Fruit from "./Fruit";
 import ConditionalComponent from "./ConditionalComponent";
 import Message from "./Message";
 import Counter from "./Counter";
+import Form from "./Form";
 const fruits = [
   { name: "Mango", price: 2.5, emoji: "🥭", soldout: false },
   { name: "Banana", price: 0.7, emoji: "🍌", soldout: true },
@@ -11,12 +12,13 @@ const fruits = [
 export default function Fruits() {
   return (
     <ul>
-      {fruits.map((item, index) => (
+      {/* {fruits.map((item, index) => (
         <Fruit key={index} obj={item} />
-      ))}
+      ))} */}
       {/* <ConditionalComponent /> */}
       {/* <Message /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <Form/>
     </ul>
   );
 }
